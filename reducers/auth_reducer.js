@@ -1,4 +1,4 @@
-import { FACEBOOK_LOGIN_SUCCESS, FACEBOOK_LOGIN_FAIL } from "../action/types";
+import { FACEBOOK_LOGIN_SUCCESS, FACEBOOK_LOGIN_FAIL } from '../actions/types';
 
 export default function (state = {}, action) {
   switch (action.type) {
